@@ -1,0 +1,22 @@
+{
+    "name": "doavers/yii2-gii",
+    "description": "Yii2 gii",
+    "type": "yii2-extension",
+    "license": "GNU GPLv2",
+    "authors": [
+        {
+            "name": "Ian Doavers",
+            "email": "doavers@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "require": {
+        "yiisoft/yii2": "*",
+    },
+    "autoload": {
+        "psr-4": {
+            "doavers\\gii\\": ""
+        }
+    }
+}
